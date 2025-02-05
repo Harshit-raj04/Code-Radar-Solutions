@@ -5,7 +5,7 @@ int main() {
     scanf("%f",&r);
     int pi;
     pi = 3.14;
-    z = pi*(r*r)
+    z = pi*(r*r);
     printf("%d",z);
     return 0;
 }

@@ -5,7 +5,6 @@ int main() {
     scanf("%f",&r);
     int pi;
     pi = 3.14;
-    z = pi*(r*r);
-    printf("%d",z);
+    printf("%d",3.14*r*r);
     return 0;
 }

@@ -5,6 +5,6 @@ int main() {
     scanf("%f",&r);
     int pi;
     pi = 3.14;
-    printf("%d",3.14*r*r);
+    printf("%f",3.14*r*r);
     return 0;
 }

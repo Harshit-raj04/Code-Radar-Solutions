@@ -6,7 +6,7 @@ int main() {
         printf("True;%d",&a,&b);
     }
     else{
-        printf("False")
+        printf("False");
     }
     printf("%s", welcome());
     return 0;

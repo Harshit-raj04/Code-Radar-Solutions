@@ -9,6 +9,5 @@ int main() {
     else if(a==1900 & a%4!=0){
         printf("Not a Leap Year");
     }
-    
     return 0;
 }

@@ -9,6 +9,6 @@ int main(){
         printf("Scalene");
     }
     else{
-        printf("Equilateral");
+        printf("Isosceles");
     }
 }

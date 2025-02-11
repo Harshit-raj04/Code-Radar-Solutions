@@ -10,10 +10,10 @@ int main(){
         printf("Valid");
     }
     else if((a+c)>b){
-        printf("Valid")
+        printf("Valid");
     }
     else{
-        printf("Invalid")
+        printf("Invalid");
     }
     return 0;
 }

@@ -3,7 +3,7 @@ int main(){
 
     char x;
     scanf("%c", &x);
-    if(x>='0' && x<=9){
+    if(x>='0' && x<='9'){
         printf("Digit");
     }
     else if(isalpha(x)){

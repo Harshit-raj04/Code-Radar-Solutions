@@ -11,11 +11,11 @@ int main(){
         if (x=='a' || x=='e' || x='i' || x=='o' || x=='u'){
             printf("Vowel");
         }else{
-            printf("Consonant")
+            printf("Consonant");
         }
     }
     else{
-        printf("Special Character")
+        printf("Special Character");
     }
     
     return 0;

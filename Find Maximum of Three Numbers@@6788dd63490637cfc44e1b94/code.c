@@ -3,13 +3,15 @@
 int main(){
     int a,b,c;
     scanf("%d%d%d," &a,&b,&c);
-    max=a;
-    if(b>max){
-        max=b;
+ 
+    if(a>b && a>c){
+        printf("%d",a);
     }
-    if(c>max){
-        max=c;
+    if(b>a && b>c){
+        printf("%d",b);
     }
-    printf{"%d", max};
+    if(c>b && c>a){
+        printf("%d",c);
+    }
     return 0;
 }

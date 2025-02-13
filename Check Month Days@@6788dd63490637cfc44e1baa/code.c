@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int a;
-    scanf("%d", &n);
+    scanf("%d", &a);
     if(a==1){
         printf("31");
     }
@@ -34,7 +34,7 @@ int main(){
         printf("31");
     }
     else{
-        printf("Invalid")
+        printf("Invalid");
     }
     return 0;
 }

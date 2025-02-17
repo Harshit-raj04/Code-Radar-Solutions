@@ -5,7 +5,7 @@ int main() {
     char a;
     
     // Taking input
-    if scanf("%d %d %c", &num1, &num2, &a) {
+    if (scanf("%d %d %c", &num1, &num2, &a )=3) {
         printf("error\n");
         return 1;
     }

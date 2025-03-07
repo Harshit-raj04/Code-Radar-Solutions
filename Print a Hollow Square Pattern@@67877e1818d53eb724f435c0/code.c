@@ -7,8 +7,10 @@ int main()
     for (int i=1; i<=a; i++){
         for(int j=1; j<=a; j++){
             int n=(a/2 +1);
+            if(i==n || j==n){
             printf("*",n)
             n++;
+            }
         }printf("\n");
     }
     return 0;

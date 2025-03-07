@@ -9,7 +9,7 @@ int main()
             if(i==0 || i==a-1 || j==0 || j==a-1){
                 printf("*");
             }else{
-                printf("  ");
+                printf(" ");
             }
         }printf("\n");
     }

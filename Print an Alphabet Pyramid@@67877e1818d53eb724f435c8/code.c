@@ -4,11 +4,12 @@ int main(){
     scanf("%d", &a);
     
     for (int i=1; i<=a; i++){
+        int n=1;
         for(int j=1; j<=i; j++){
-            int d=a+64;
+            int d=n+64;
             char ch=(char)d;
             printf("%c ", ch);
-            a++;
+            n++;
             }
         printf("\n");
     }

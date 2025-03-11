@@ -11,7 +11,7 @@ int main(){
                 printf("%d",j);
             }
             
-        n=n+2;
+        n++;
         printf("\n");
     }
     return 0;
